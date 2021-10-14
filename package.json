@@ -1,0 +1,19 @@
+{
+  "name": "crud_nodejs",
+  "version": "1.0.0",
+  "description": "simple Crud app using Node and Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "sudarshan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^4.1.3",
+    "mongoose": "^6.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
